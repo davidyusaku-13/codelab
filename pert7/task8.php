@@ -39,7 +39,7 @@ if (isset($_POST["submit"])) {
         echo "<td><img style='vertical-align: middle;' width='50%' src='https://www.w3schools.com/w3css/" . $characters[$x][2] . "' class='w3-circle'></td>";
         echo "<td style='vertical-align: middle;'>" . $characters[$x][0] . "</td>
         <td style='vertical-align: middle;'>
-          <a style='text-decoration:none;' href='./task7details.php?id=" . $x . "'>
+          <a style='text-decoration:none;' href='./task8details.php?id=" . $x . "'>
             <span class='material-symbols-outlined'>
                 folder_shared
             </span>
